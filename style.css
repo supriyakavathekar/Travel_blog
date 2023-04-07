@@ -107,6 +107,13 @@ header {
 }
 
 
+/* destination */
+
+.destination {
+    height: 100%;
+   background-color: #bad7e6;
+}
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
