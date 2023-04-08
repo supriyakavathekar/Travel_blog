@@ -111,8 +111,76 @@ header {
 
 .destination {
     height: 100%;
-   background-color: #bad7e6;
+    width: 100%;
+   background-color: #043a54;
+
 }
+
+.destination .main-nav{
+  background-color: black;
+} 
+
+.destination-header {
+ 
+ position: absolute;
+ top: 100px;
+ text-align: center;
+ width: 100%;
+ padding: 5%;
+
+}
+
+.destination-header h1 {
+  margin-bottom: 15px ;
+ text-transform: uppercase;
+  font-family: "Dancing Script", cursive;
+  font-family: "Sono", sans-serif;
+  letter-spacing: 2px;
+  font-size: 2em;
+}
+
+.completed-container{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.completed-child {
+  height: 300px;
+}
+
+.india {
+  background-image: url("/assets/images/leh-ladakh.img");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.italy {
+  background-image: url("/assets/images/dolomites.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.swiss {
+  background-image: url("/assets/images/img1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+
+}
+
+.germany {
+  background-image: url("/assets/images/bastie.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+
+
+
+
 
 
 
@@ -125,7 +193,7 @@ header {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+ /* main page */
     .text p {
         
         font-size: 2em;
@@ -144,7 +212,7 @@ header {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+/* main page */
     .text p {
         width: 800px;
     }
