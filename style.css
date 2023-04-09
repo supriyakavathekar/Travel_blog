@@ -267,7 +267,62 @@ right: 0;
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
+    /* destination */
+
+    .destination-header h1 {
+     
+      font-size: 3em;
+    }
     
+    .destination-header p {
+     
+      font-size: 1.2em;
+    }
+
+
+    .completed-child {
+      height: 350px;
+      width: 400px;
+    }
+
+    .completed-container {
+      display: flex;
+      align-items: center;
+    }
+   
+    .completed-child h3 {
+      font-size: 1.8em;
+    }
+
+    .completed-child a {
+      font-size: 1.2em;
+    }
+
+    .completed-container h2 {
+      font-size: 2em;
+    }
+
+    .coming-container h2 {
+      font-size: 2em;
+    }
+
+   .coming-child {
+    height: 350px;
+    width: 400px;
+   }
+
+   .coming-container{
+    display: flex;
+    align-items: center;
+   }
+
+   .coming-child h3 {
+    font-size: 1.8em;
+   }
+
+  .top-destination a {
+    font-size: 1.2em;
+  }
 
 }
 
@@ -287,6 +342,8 @@ right: 0;
       .main-nav a {
         font-size: 1.5em;
       }
+
+      
 
 }
 
