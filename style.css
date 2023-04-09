@@ -109,7 +109,13 @@ header {
 
 /* destination */
 
-.destination {
+.desti {
+  height: 100%;
+  width: 100%;
+  background-color: #043a54;
+}
+
+ .destination { 
     height: 100%;
     width: 100%;
    background-color: #043a54;
@@ -143,16 +149,37 @@ header {
 display: flex;
 flex-direction: column;
 gap: 30px;
+margin-top: 50px;
 }
 .completed-child {
   height: 300px;
+  margin-top: 40px;
 }
+
+.completed-child h3 {
+ background-color: #065e8a;
+}
+
+.completed-child button  {
+  background-color: #065e8a;
+
+}
+
+.completed-child a {
+  text-decoration: none;
+  border: 1px solid #065e8a;
+  background-color: #065e8a;
+  color: #fff;
+}
+
+
 
 .india {
   background-image: url("/assets/images/leh-ladakh.img");
   background-position: center;
   background-repeat: no-repeat;
   height: 200px;
+
 }
 
 .italy {
