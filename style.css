@@ -246,7 +246,18 @@ color: black;
     color: black;
   }
 
+ .top-destination a {
+  text-decoration: none;
+  color: white;
+ }
+     
+ .top-destination {
+ position: absolute;
+padding: 8%;
+right: 0;
 
+ }
+   
 
 
 
