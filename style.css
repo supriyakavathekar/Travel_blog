@@ -322,6 +322,7 @@ right: 0;
 
   .top-destination a {
     font-size: 1.2em;
+    cursor: pointer;
   }
 
 }
@@ -377,6 +378,19 @@ right: 0;
     .text p {
         width: 800px;
     }
+
+    /* destination page */
+
+    .completed-child {
+      width: 400px;
+      height: 350px;
+    }
+
+    .coming-child {
+      width: 400px;
+      height: 350px;
+    }
+
 
 }
 
