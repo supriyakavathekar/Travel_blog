@@ -343,6 +343,30 @@ right: 0;
         font-size: 1.5em;
       }
 
+
+      /* destination page */
+
+.completed-parent {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  
+}
+
+.completed-child {
+  width: 320px;
+  height: 250px;
+}
+     
+.coming-parent {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+.coming-child {
+  width: 320px;
+  height: 250px;
+}
       
 
 }
