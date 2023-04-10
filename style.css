@@ -264,12 +264,10 @@ right: 0;
 
    /* Leh-ladakh page */
 
-
-.leh-main {
+.leh-ladakh {
   background-color: #065e8a;
-  height: 100%;
-  width: 100%;
 }
+
 
 .leh-main nav {
   background-color: black;
@@ -277,7 +275,7 @@ right: 0;
 
 .hero-image {
   background-image: linear-gradient(rgba(6, 5, 5, 0.5), rgba(139, 135, 135, 0.5)) , url("/assets/images/leh.png");
-  height: 50%;
+   height: 50%; 
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -291,6 +289,33 @@ right: 0;
 text-align: center;
 padding:5% ;
 }
+
+.leh-travelguide {
+ position: absolute;
+ margin-top: 520px;
+ width: 350px; 
+padding: 2%;
+}
+
+.leh-travelguide h2 {
+  color: black;
+  font-family: cursive;
+}
+
+.quick-facts {
+  margin-top: 40px;
+}
+
+
+.parent-fact {
+display: grid;
+grid-template-columns: auto auto;
+gap: 10px;
+}
+.child-fact {
+  width: 60px;
+}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
