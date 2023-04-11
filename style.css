@@ -473,6 +473,17 @@ header {
     width: 320px;
     height: 250px;
   }
+
+  /* leh-ladakh page */
+
+  .leh-info{
+    width: 800px;
+  }
+  
+  .about-me {
+    width: 800px;
+  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
