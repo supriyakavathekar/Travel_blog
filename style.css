@@ -716,6 +716,26 @@ padding: 10%;
  .hero-image-bastie{
   height: 80%;
  }
+
+
+ /* memories */
+
+.hero-image-memories {
+  height: 80%;
+}
+
+ .leh-photos-parent {
+  grid-template-columns: auto auto auto;
+  margin-top: 40px;
+ }
+
+ .photos-child {
+  width: 350px;
+ }
+
+
+ 
+
 }
 
 
