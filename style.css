@@ -381,6 +381,28 @@ background-attachment: fixed;
 
 }
 
+/* switzerland */
+
+.hero-image-swiss {
+  background-image: linear-gradient(
+    rgba(6, 5, 5, 0.5),
+    rgba(48, 45, 45, 0.5)
+  ),
+  url("/assets/images/swiss1.img");
+height: 50%;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+position: absolute;
+margin-top: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -568,6 +590,12 @@ background-attachment: fixed;
  .hero-image-dolomeits {
   height: 80%;
  } 
+
+
+ /* swiss */
+ .hero-image-swiss {
+  height: 80%;
+ }
 
 }
 
