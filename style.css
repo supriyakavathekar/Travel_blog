@@ -223,11 +223,15 @@ header {
   height: 200px;
 }
 
-.coming-container {
+.coming-container{
   display: flex;
   flex-direction: column;
   gap: 30px;
   margin-top: 50px;
+}
+.coming-child {
+  height: 300px;
+  margin-top: 40px;
 }
 
 .coming-child h3 {
