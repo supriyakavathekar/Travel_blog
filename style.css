@@ -258,7 +258,7 @@ header {
 .hero-image {
   background-image: linear-gradient(
       rgba(6, 5, 5, 0.5),
-      rgba(139, 135, 135, 0.5)
+      rgba(48, 45, 45, 0.5)
     ),
     url("/assets/images/leh.png");
   height: 50%;
@@ -269,6 +269,8 @@ header {
   margin-top: 100px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  background-size: cover;
 }
 
 .hero-text {
@@ -415,6 +417,15 @@ header {
     font-size: 1.2em;
     cursor: pointer;
   }
+
+/* leh-ladakh page */
+
+.hero-text {
+ font-size: 1.3em;
+}
+
+
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
