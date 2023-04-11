@@ -504,7 +504,41 @@ header {
     width: 400px;
     height: 350px;
   }
+
+
+  /* leh-ladakh page */
+
+
+
+  .hero-image {
+  height: 80%;
+  } 
+
+  .hero-text {
+   font-size: 1.8em;
+  }
+
+ .leh-travelguide {
+  display: grid;
+  grid-template-columns: 600px auto;
+  gap: 150px;
+
+ }
+
+ .overview {
+  width: 550px;
+  margin-top: 100px;
+ }
+
+ .about-me {
+  width: 300px;
+  margin-top: 100px;
+ }
+
+
 }
+
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
