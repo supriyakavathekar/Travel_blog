@@ -535,6 +535,16 @@ header {
   margin-top: 100px;
  }
 
+ .parent-fact {
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+  margin-bottom: 40px;
+ 
+ }
+
+ .leh-info {
+  width: 900px;
+ }
 
 }
 
