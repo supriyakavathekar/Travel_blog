@@ -632,6 +632,15 @@ padding: 10%;
     width: 800px;
   }
 
+
+  /* memories */
+
+  .photos-child {
+    width: 400px;
+  }
+
+ 
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
