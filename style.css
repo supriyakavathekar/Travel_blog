@@ -13,8 +13,6 @@ body {
   color: #fff;
 }
 
-
-
 header {
   height: 100%;
   display: flex;
@@ -56,7 +54,7 @@ header {
   text-transform: uppercase;
   letter-spacing: 5px;
   transition: 0.4s;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .button:hover {
@@ -108,7 +106,6 @@ header {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-
 /* destination */
 
 .desti {
@@ -117,41 +114,38 @@ header {
   background-color: #043a54;
 }
 
- .destination { 
-    height: 100%;
-    width: 100%;
-   background-color: #043a54;
-
+.destination {
+  height: 100%;
+  width: 100%;
+  background-color: #043a54;
 }
 
-.destination .main-nav{
+.destination .main-nav {
   background-color: black;
-} 
+}
 
 .destination-header {
- 
- position: absolute;
- top: 100px;
- text-align: center;
- width: 100%;
- padding: 5%;
-
+  position: absolute;
+  top: 100px;
+  text-align: center;
+  width: 100%;
+  padding: 5%;
 }
 
 .destination-header h1 {
-  margin-bottom: 15px ;
- text-transform: uppercase;
+  margin-bottom: 15px;
+  text-transform: uppercase;
   font-family: "Dancing Script", cursive;
   font-family: "Sono", sans-serif;
   letter-spacing: 2px;
   font-size: 2em;
 }
 
-.completed-container{
-display: flex;
-flex-direction: column;
-gap: 30px;
-margin-top: 50px;
+.completed-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
 }
 .completed-child {
   height: 300px;
@@ -159,15 +153,11 @@ margin-top: 50px;
 }
 
 .completed-child h3 {
-color: black;
-
-
- 
+  color: black;
 }
 
-.completed-child button  {
+.completed-child button {
   background-color: #065e8a;
-
 }
 
 .completed-child a {
@@ -177,14 +167,11 @@ color: black;
   color: #fff;
 }
 
-
-
 .india {
   background-image: url("/assets/images/leh-ladakh.img");
   background-position: center;
   background-repeat: no-repeat;
   height: 200px;
-
 }
 
 .italy {
@@ -199,7 +186,6 @@ color: black;
   background-position: center;
   background-repeat: no-repeat;
   height: 200px;
-
 }
 
 .germany {
@@ -230,7 +216,6 @@ color: black;
   height: 200px;
 }
 
-
 .maldives {
   background-image: url("/assets/images/maldives.png");
   background-position: center;
@@ -238,44 +223,45 @@ color: black;
   height: 200px;
 }
 
-.coming-container{
+.coming-container {
   display: flex;
   flex-direction: column;
   gap: 30px;
   margin-top: 50px;
-  }
+}
 
- 
-  .coming-child h3{
-    color: black;
-  }
+.coming-child h3 {
+  color: black;
+}
 
- .top-destination a {
+.top-destination a {
   text-decoration: none;
   color: white;
- }
-     
- .top-destination {
- position: absolute;
-padding: 8%;
-right: 0;
+}
 
- }
+.top-destination {
+  position: absolute;
+  padding: 8%;
+  right: 0;
+}
 
-   /* Leh-ladakh page */
+/* Leh-ladakh page */
 
 .leh-ladakh {
   background-color: #065e8a;
 }
-
 
 .leh-main nav {
   background-color: black;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(6, 5, 5, 0.5), rgba(139, 135, 135, 0.5)) , url("/assets/images/leh.png");
-   height: 50%; 
+  background-image: linear-gradient(
+      rgba(6, 5, 5, 0.5),
+      rgba(139, 135, 135, 0.5)
+    ),
+    url("/assets/images/leh.png");
+  height: 50%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -286,15 +272,15 @@ right: 0;
 }
 
 .hero-text {
-text-align: center;
-padding:5% ;
+  text-align: center;
+  padding: 5%;
 }
 
 .leh-travelguide {
- position: absolute;
- margin-top: 520px;
- width: 350px; 
-padding: 2%;
+  position: absolute;
+  margin-top: 520px;
+  width: 350px;
+  padding: 2%;
 }
 
 .leh-travelguide h2 {
@@ -303,152 +289,194 @@ padding: 2%;
 }
 
 .quick-facts {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
+.quick-facts h2 {
+  margin-bottom: 30px;
+}
 
 .parent-fact {
-display: grid;
-grid-template-columns: auto auto;
-gap: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  /* width: 100%; */
 }
 .child-fact {
-  width: 60px;
+  width: 50px;
+  height: 120px;
 }
+
+.child-fact h3 {
+  font-family: cursive;
+}
+
+.child-fact p {
+  color: rgb(171, 170, 170);
+}
+
+.leh-travelguide a {
+  color: rgb(230, 152, 7);
+  text-decoration: none;
+}
+
+.safety {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.budget {
+  margin-bottom: 30px;
+}
+
+.leh-personal-info img {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 200px;
+}
+
+.about-me {
+  margin-bottom: 30px;
+}
+
+.leh-social{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.leh-social h2 {
+  
+  margin-bottom: 10px;
+}
+
+.parent-social {
+  display: grid;
+  grid-template-columns: auto auto;
+  
+}
+
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  /* destination */
 
-    /* destination */
+  .destination-header h1 {
+    font-size: 3em;
+  }
 
-    .destination-header h1 {
-     
-      font-size: 3em;
-    }
-    
-    .destination-header p {
-     
-      font-size: 1.2em;
-    }
+  .destination-header p {
+    font-size: 1.2em;
+  }
 
-
-    .completed-child {
-      height: 350px;
-      width: 400px;
-    }
-
-    .completed-container {
-      display: flex;
-      align-items: center;
-    }
-   
-    .completed-child h3 {
-      font-size: 1.8em;
-    }
-
-    .completed-child a {
-      font-size: 1.2em;
-    }
-
-    .completed-container h2 {
-      font-size: 2em;
-    }
-
-    .coming-container h2 {
-      font-size: 2em;
-    }
-
-   .coming-child {
+  .completed-child {
     height: 350px;
     width: 400px;
-   }
+  }
 
-   .coming-container{
+  .completed-container {
     display: flex;
     align-items: center;
-   }
+  }
 
-   .coming-child h3 {
+  .completed-child h3 {
     font-size: 1.8em;
-   }
+  }
+
+  .completed-child a {
+    font-size: 1.2em;
+  }
+
+  .completed-container h2 {
+    font-size: 2em;
+  }
+
+  .coming-container h2 {
+    font-size: 2em;
+  }
+
+  .coming-child {
+    height: 350px;
+    width: 400px;
+  }
+
+  .coming-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .coming-child h3 {
+    font-size: 1.8em;
+  }
 
   .top-destination a {
     font-size: 1.2em;
     cursor: pointer;
   }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
- /* main page */
-    .text p {
-        
-        font-size: 2em;
-     padding: 1%;
-      }
+  /* main page */
+  .text p {
+    font-size: 2em;
+    padding: 1%;
+  }
 
-      .text h1 {
-        font-size: 4em;
-      }
+  .text h1 {
+    font-size: 4em;
+  }
 
-      .main-nav a {
-        font-size: 1.5em;
-      }
+  .main-nav a {
+    font-size: 1.5em;
+  }
 
+  /* destination page */
 
-      /* destination page */
+  .completed-parent {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+  }
 
-.completed-parent {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 30px;
-  
-}
+  .completed-child {
+    width: 320px;
+    height: 250px;
+  }
 
-.completed-child {
-  width: 320px;
-  height: 250px;
-}
-     
-.coming-parent {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 30px;
-}
-.coming-child {
-  width: 320px;
-  height: 250px;
-}
-      
-
+  .coming-parent {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+  }
+  .coming-child {
+    width: 320px;
+    height: 250px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-/* main page */
-    .text p {
-        width: 800px;
-    }
+  /* main page */
+  .text p {
+    width: 800px;
+  }
 
-    /* destination page */
+  /* destination page */
 
-    .completed-child {
-      width: 400px;
-      height: 350px;
-    }
+  .completed-child {
+    width: 400px;
+    height: 350px;
+  }
 
-    .coming-child {
-      width: 400px;
-      height: 350px;
-    }
-
-
+  .coming-child {
+    width: 400px;
+    height: 350px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
-
 }
