@@ -168,7 +168,7 @@ header {
 }
 
 .india {
-  background-image: url("/assets/images/leh-ladakh.img");
+  background-image: url("/assets/images/lehladakh.png");
   background-position: center;
   background-repeat: no-repeat;
   height: 200px;
@@ -422,6 +422,69 @@ align-items: center;
 justify-content: center;
 background-size: cover;
 background-attachment: fixed;}
+
+
+
+/* memoriies html */
+.memories a {
+color: white;
+}
+
+.memories nav {
+  background-color: black;
+}
+
+.memories {
+  background-color: #065e8a;
+  height: 100%;
+  width: 100%;
+}
+
+
+.hero-image-memories {
+  background-image: linear-gradient(
+      rgba(16, 14, 14, 0.5),
+      rgba(45, 43, 43, 0.5)
+    ),
+    url("/assets/images/memories.png");
+  height: 50%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-image-memories h2 {
+  font size: 5em;
+}
+
+.photos {
+ position: absolute;
+  margin-top: 520px;
+}
+
+.leh-photos-parent {
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
+.photos-child {
+padding: 10%;
+}
+.photos-child img {
+  height: 300px;
+  width: 300px;
+ 
+}
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
