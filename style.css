@@ -572,6 +572,15 @@ padding: 10%;
 }
 
 
+/* memories */
+
+
+.leh-photos-parent {
+ display: grid;
+ grid-template-columns: auto auto;
+ gap: 15px;
+}
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
