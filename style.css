@@ -424,7 +424,9 @@ header {
  font-size: 1.3em;
 }
 
-
+.overview {
+  width: 600px;
+}
 
 }
 
